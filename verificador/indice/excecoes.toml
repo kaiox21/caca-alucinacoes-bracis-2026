@@ -1,0 +1,15 @@
+# Exceções curadas do índice canônico.
+#
+# Entram aqui só os acórdãos cujo número nenhum extrator recupera de forma válida.
+# Cada chave foi conferida à mão no texto do registro. Limite prático: dez entradas;
+# passou disso, o extrator do tribunal é que precisa melhorar.
+
+[[excecao]]
+documento_id = "doc_0454"
+chave = "598-49.2012.6.08.0018"
+justificativa = "OCR perdeu os dígitos verificadores no cabeçalho (`598- 2012 6 08 0018`); o rodapé das páginas repete `AgR-REspe nº 598-49.2012.6.08.0018/ES`, e 49 é o dígito que o módulo 97 exige"
+
+[[excecao]]
+documento_id = "doc_0481"
+chave = "3423345-12.2009.6.04.0000"
+justificativa = "o número aparece idêntico 10 vezes no texto (`ED-REspe nº 3423345-12.2009.6.04.0000/AM`), mas o dígito verificador não fecha no módulo 97 (o esperado seria 44): numeração legada do TSE, mantida como está impressa"

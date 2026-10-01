@@ -1,0 +1,11 @@
+# Dados da competição: não versionar
+*.db
+txt/
+goldenset_offsets.csv
+sample_submission.csv
+kaggle_metric.py
+out/
+saida/
+__pycache__/
+*.pyc
+.DS_Store

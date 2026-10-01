@@ -1,0 +1,6 @@
+*.db
+txt/
+out/
+saida/
+.git/
+__pycache__/
